@@ -1,0 +1,145 @@
+/* FOOTER
+---------------------------------------- */
+.l-footer {
+    margin: 20px 0 0;
+    padding: 0px 0 0 0;
+    width: 100%;
+    min-height: 520px;
+    border-top: solid 1px #D5D5D5;
+}
+
+.has-fixed-footer .l-footer {
+    margin-bottom: 48px;
+}
+
+.l-footer.footer-small {
+    min-height: 0;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.footer-block-full {
+    width: 100%;
+    float: left;
+}
+
+.countries-block-item {
+    float: left;
+    margin-left: 5px;
+}
+
+.countries-block-item:first-child {
+    margin-left: 10px;
+}
+
+.payment-list .payment-item {
+    margin-right: 7px;
+}
+
+.app-item {
+    float: left;
+    margin-left: 6.3%;
+    color: #B1B1B1;
+    font-size: 19px;
+}
+
+.footer-top-border {
+    border-top: solid 1px #D5D5D5;
+}
+
+.footer-min-height {
+    min-height: 143px;
+}
+
+.l-footer-group {
+    width: 960px;
+    min-width: 960px;
+    max-width: 960px;
+}
+
+.horizontal-separator {
+    border-top: solid 1px #D5D5D4;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+}
+
+.footer-brandlist .menu-links-vertical-link {
+    width: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.top-categories .menu-links-vertical-link,
+.footer-help .menu-links-vertical-link,
+.footer-about .menu-links-vertical-link,
+.footer-stores .menu-links-vertical-link,
+.footer-social .menu-links-vertical-link {
+    margin-bottom: 3px;
+    display: block;
+}
+
+.footer-block-payment,
+.footer-apps-block,
+.footer-international-block {
+    margin: 10px 0;
+}
+
+.secure-block {
+    margin: 12px 0 25px 0;
+}
+
+.about_dafiti {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    width: 960px;
+}
+
+.dados-txt {
+    border-top: 1px #ccc solid;
+}
+
+.dados-txt p {
+    font-size: 10px;
+    font-family: arial;
+    color: #ADADAD;
+    margin-top: 8px
+}
+
+.dados-txt p a {
+    color: #ADADAD;
+    text-decoration: underline;
+}
+
+.dados-txt p a:hover {
+    color: #858585;
+}
+
+.dados-txt p.margintop10 {
+    margin-top: 10px
+}
+.icn-rodape-mobile,
+.icn-rodape-tablet {
+    background: url("https://dafitistatic.dafiti.com.br/cms/mkt/interface/redesign-2014/home/sprite_icns_home_v2.png") no-repeat scroll 0 0 transparent;
+display: block;
+float: left;
+}
+
+.icn-rodape-mobile {
+    height: 22px;
+margin: 0 10px 0;
+width: 15px;
+background-position: -31px 0;
+}
+
+.icn-rodape-tablet {
+    height: 22px;
+width: 26px;
+background-position: -46px 0;
+}

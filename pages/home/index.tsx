@@ -5,10 +5,11 @@ const HelloComponent = dynamic(() => import("../../components/footer/footer"));
 
 export default function index() {
   return (
-    <div>
-      <h1>Checkout</h1>
+   <div>
+      <h1>Home</h1>
 
       <HelloComponent/>
     </div>
+  
   );
 }
