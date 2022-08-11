@@ -1,11 +1,14 @@
 import React from "react";
 import styles from '../../menu.module.css';
+import type { NextPage } from "next";
 
-
-export default function footer() {
-    return (
+const menu: NextPage = ({}: any)=>{
+    return(
         <div className={styles["footer-class"]}>
             Footer
-        </div>
-    );
+        </div>           
+    )                   
 }
+
+
+export default menu
