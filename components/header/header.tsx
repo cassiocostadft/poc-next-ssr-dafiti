@@ -1,14 +1,10 @@
-import Head from "next/head";
 import React from "react";
+import styles from '../../styles/header.module.css';
 
 export default function header() {
   return (
-    <Head>
-
-        <meta name="description" content="Pagina do Produto">
-        </meta>
-        <title>Pagina do Produto</title>
-
-    </Head>
+    <div className={styles["header-class"]}>
+      Header
+    </div>
   );
 }
